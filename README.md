@@ -1,7 +1,4 @@
-/*
-Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
-RegisterNumber:  
+  
 # Implementation of Univariate Linear Regression
 ## AIM:
 To implement univariate Linear Regression to fit a straight line using least squares.
@@ -21,6 +18,10 @@ To implement univariate Linear Regression to fit a straight line using least squ
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
+/*
+Program to implement the simple linear regression model for predicting the marks scored.
+Developed by: Haniel Reena D R
+RegisterNumber:
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,10 +47,10 @@ plt.plot(x,y_p,color='black')
 plt.show()
 ## Output:
 
+*/
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
 
-*/
 
 
