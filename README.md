@@ -46,8 +46,6 @@ print(error)
 plt.scatter(x,y,color='black')
 plt.plot(x,y_p,color='black')
 plt.show()
-## Output:
-
 */
 ```
 ## Output:
