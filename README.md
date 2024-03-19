@@ -18,6 +18,7 @@ To implement univariate Linear Regression to fit a straight line using least squ
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
+```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: Haniel Reena D R
@@ -48,6 +49,7 @@ plt.show()
 ## Output:
 
 */
+```
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
