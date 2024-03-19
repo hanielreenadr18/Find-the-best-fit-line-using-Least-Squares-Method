@@ -18,36 +18,30 @@ To implement univariate Linear Regression to fit a straight line using least squ
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
-```
-/*
-Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: Haniel Reena D R
-RegisterNumber:2305001008
-
+``python
 import numpy as np
 import matplotlib.pyplot as plt
-x=np.array(eval(input()))
-y=np.array(eval(input()))
-x_mean=np.mean(x)
-y_mean=np.mean(y)
-n,d=0,0
-for i in range(len(x)):
-  n+=((x[i]-x_mean)*(y[i]-y_mean))
-  d+=((x[i]-x_mean)**2)
-m=n/d
-b=y_mean-(m*x_mean)
-m=round(m,2)
-b=round(b,2)
-print(m,b)
-y_p=(m*x)+b
-print(y_p)
-error=y-y_p
-print(error)
-plt.scatter(x,y,color='black')
-plt.plot(x,y_p,color='black')
-plt.show()
-*/
-```
+X=np.array(eval(input()))
+Y=np.array(eval(input()))
+X_mean=np.mean(X)
+print(X_mean)
+Y_mean=np.mean(Y)
+print(Y_mean)
+num=0
+denum=0
+for i in range(len(X)):
+  num+=(X[i]-X_mean)*(Y[i]-Y_mean)
+  denum+=(X[i]-X_mean)**2
+m=num/denum
+print(m)
+b=Y_mean - m*X_mean
+print(b)
+Y_pred=m*X+b
+print(Y_pred)
+plt.scatter(X,Y,color='blue')
+plt.plot(X,Y_pred,color='yellow') 
+plt.show() 
+``
 ## Output:
 ![WhatsApp Image 2024-03-17 at 20 02 17_7c6cecfd](https://github.com/hanielreenadr18/Find-the-best-fit-line-using-Least-Squares-Method/assets/155225915/131393b3-2a46-49f7-90de-44ccc3698381)
 
